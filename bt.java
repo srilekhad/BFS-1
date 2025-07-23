@@ -5,8 +5,6 @@
 //For each level, store node values in a sublist and enqueue their non-null children.
 //Add each level’s sublist to the final result list.
 
-
-
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> outerlist = new ArrayList<>();
